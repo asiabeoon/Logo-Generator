@@ -53,10 +53,13 @@ Each shape class should be tested for a render() method that returns a string fo
 
 const shape = new Triangle();
 shape.setColor("blue");
-expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="b
+expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="b/>')
 
-## Websites-Activities-Classes
- info to download json https://www.npmjs.com/package/package-json
+## Websites-Activities-Classes/Tutors
+ Info to download json https://www.npmjs.com/package/package-json
  Object-Oriented Programming (OOP) Day 3 2:45 minutes into the video
  Activities-10-OOP-02 Challenge-Assets-circle.svg
  SVG Shape Types https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes
+Inquirer Documentation https://www.npmjs.com/package/inquirer
+Do not change the test file, only work in index.js (and, there’s a package.json file… what do we immediately do when we see one? npm i to install it! And, remember, to run the test after we install we type npm run test. 
+https://mochajs.org/#asynchronous-code
