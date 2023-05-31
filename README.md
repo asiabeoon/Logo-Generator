@@ -63,3 +63,19 @@ expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill=
 Inquirer Documentation https://www.npmjs.com/package/inquirer
 Do not change the test file, only work in index.js (and, there’s a package.json file… what do we immediately do when we see one? npm i to install it! And, remember, to run the test after we install we type npm run test. 
 https://mochajs.org/#asynchronous-code
+
+<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <circle cx="150" cy="100" r="80" fill="green" />
+
+  <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
+
+</svg>
+
+<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20,20 L180,20 M20,50 L180,50 M20,80 L180,80" stroke="grey" />
+
+  <text dominant-baseline="auto" x="30" y="20">Auto</text>
+  <text dominant-baseline="middle" x="30" y="50">Middle</text>
+  <text dominant-baseline="hanging" x="30" y="80">Hanging</text>
+</svg>
